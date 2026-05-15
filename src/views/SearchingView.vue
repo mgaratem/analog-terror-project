@@ -6,8 +6,8 @@
 </template>
 
 <script setup lang="ts">
-import VhsOverlay from '@/components/VhsOverlay.vue'
-import GlitchText from '@/components/GlitchText.vue'
+import VhsOverlay from '../components/VhsOverlay.vue'
+import GlitchText from '../components/GlitchText.vue'
 </script>
 
 <style scoped>

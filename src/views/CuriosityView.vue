@@ -6,7 +6,7 @@
 </template>
 
 <script setup lang="ts">
-import VhsOverlay from '@/components/VhsOverlay.vue'
+import VhsOverlay from '../components/VhsOverlay.vue'
 </script>
 
 <style scoped>

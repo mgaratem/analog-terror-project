@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import CuriosityView from '@/views/CuriosityView.vue'
-import SearchingView from '@/views/SearchingView.vue'
-import FoundView from '@/views/FoundView.vue'
+import CuriosityView from '../views/CuriosityView.vue'
+import SearchingView from '../views/SearchingView.vue'
+import FoundView from '../views/FoundView.vue'
 
 const router = createRouter({
   history: createWebHistory(),

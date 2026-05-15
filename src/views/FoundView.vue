@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
-import VhsOverlay from '@/components/VhsOverlay.vue'
-import GlitchText from '@/components/GlitchText.vue'
-import faceImg from '@/assets/face.jpg'
+import VhsOverlay from '../components/VhsOverlay.vue'
+import GlitchText from '../components/GlitchText.vue'
+import faceImg from '../assets/face.jpg'
 
 const smiley = ref(false)
 const faceOpacity = ref(0.08)
