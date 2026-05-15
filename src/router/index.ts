@@ -9,7 +9,10 @@ const router = createRouter({
     { path: '/entre-sin-pensar', component: CuriosityView },
     { path: '/no-mires-atras', component: SearchingView },
     { path: '/nunca-estuve-solo', component: FoundView },
-    { path: '/:pathMatch(.*)*', redirect: '/sabes-que-te-veo' }
+    { path: '/1', redirect: '/entre-sin-pensar' },
+    { path: '/2', redirect: '/no-mires-atras' },
+    { path: '/3', redirect: '/nunca-estuve-solo' },
+    { path: '/:pathMatch(.*)*', redirect: '/entre-sin-pensar' }
   ]
 })
 
